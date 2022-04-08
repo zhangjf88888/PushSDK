@@ -10,7 +10,8 @@
 ****************************************使用流程****************************************
 ### 
 1. 申请各个平台的 APP_ID 和密钥，并在build.gradle配置文件中设置对应清单
-     manifestPlaceholders = [
+  ```groovy
+manifestPlaceholders = [
                                 'VIVO_APP_ID'       : 'xxxxxxx',
                                 'VIVO_APP_KEY'      : 'xxxxxxx',
                                 'MI_APP_ID'         : 'xxxxxxx',
@@ -18,6 +19,8 @@
                                 'OPPO_APP_KEY'      : 'xxxxxxx',
                                 'OPPO_APP_SECRET'   : 'xxxxxxx',
         ]
+```  
+        
     特别地，华为：配置  maven { url 'https://developer.huawei.com/repo/' }；
             App中添加了“agconnect-services.json”，并在“buildscript > dependencies”中增加agcp插件配置。
                 buildscript {
