@@ -1,4 +1,4 @@
-# BeautyPushSDK
+# PushSDK
 Android简单集成OPPO、VIVO、小米、华为推送服务
 1. [oppo推送](https://open.oppomobile.com/wiki/doc#id=10445)
 2. [vivo推送](https://push.vivo.com.cn/#/)
